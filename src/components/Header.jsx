@@ -1,4 +1,5 @@
 import "./Header.css";
+
 const reactDescriptions = ["Fundamental", "Crucial", "Core"];
 
 function getRandomInt(max) {
@@ -6,6 +7,8 @@ function getRandomInt(max) {
 }
 
 export default function Header({ imagem }) {
+//  const [topico, setTopico] = useState();
+
   const descricao = reactDescriptions[getRandomInt(2)];
   return (
     <header>
